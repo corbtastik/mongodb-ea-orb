@@ -10,6 +10,37 @@ The goal is not just “MongoDB in a container,” but a setup that supports:
 
 ---
 
+## 📘 Helpful Links & Context
+
+If you want the full background, rationale, and a guided walkthrough, start here:
+
+- **Blog Post (Full Tutorial):**  
+  https://corbs.io/posts/mongodb-ea-on-orbstack/
+
+- **Author Blog:**  
+  https://corbs.io
+
+### Core Technologies
+- **MongoDB:** https://www.mongodb.com  
+- **MongoDB Enterprise Advanced:**  
+  https://www.mongodb.com/products/enterprise-advanced
+- **MongoDB Replica Sets:**  
+  https://www.mongodb.com/docs/manual/replication/
+- **MongoDB Security & Authentication:**  
+  https://www.mongodb.com/docs/manual/core/security/
+
+### Local Runtime & Tooling
+- **OrbStack (Docker & Linux on macOS):**  
+  https://orbstack.dev
+- **Docker:**  
+  https://www.docker.com
+- **Docker Volumes:**  
+  https://docs.docker.com/storage/volumes/
+
+These resources help explain *why* this setup looks the way it does and how it maps to production MongoDB behavior.
+
+---
+
 ## What this repo gives you
 
 - **MongoDB Enterprise Advanced 8.0**
@@ -65,7 +96,8 @@ This repo intentionally enables all three so you can:
 Clone the repo, review `.env`, and follow the step-by-step walkthrough in the blog post:
 
 👉 **Full tutorial:**  
-**[MongoDB Enterprise on OrbStack – Complete Walkthrough](LINK_TO_YOUR_BLOG_POST)**
+**MongoDB Enterprise Advanced on OrbStack**  
+https://corbs.io/posts/mongodb-ea-on-orbstack/
 
 The post covers:
 - Keyfile generation and permissions
@@ -82,7 +114,10 @@ This setup is intended for:
 - Learning MongoDB Enterprise features
 - Demos and workshops
 
-It is **not** a replacement for Atlas or a production cluster — but it behaves closely enough to surface real-world MongoDB behaviors.
+It is **not** a replacement for MongoDB Atlas or a production cluster — but it behaves closely enough to surface real-world MongoDB behaviors.
+
+If you are looking for a managed production deployment, see:
+- **MongoDB Atlas:** https://www.mongodb.com/atlas
 
 ---
 
